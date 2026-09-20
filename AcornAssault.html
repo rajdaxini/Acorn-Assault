@@ -414,7 +414,7 @@
     LEVELS.forEach((d,i)=>{
       const option=document.createElement('option');
       option.value=i; option.textContent=`${i+1}. ${d.name}`;
-      option.disabled=i>=saved.unlocked; levelSelect.appendChild(option);
+      option.disabled=state!=='title' && i>=saved.unlocked; levelSelect.appendChild(option);
     });
     levelSelect.value=String(Math.min(level,saved.unlocked-1));
   }
