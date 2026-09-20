@@ -1,5 +1,3 @@
-# Acorn-Assault
-Game | Love to Play
 # Acorn Assault
 
 A standalone browser physics game. The playable build is `AcornAssault.html`.
